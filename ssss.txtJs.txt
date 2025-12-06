@@ -1,0 +1,164 @@
+/* RESET dan FONT */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f4f1; /* Warna latar belakang krem muda */
+    color: #444;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* CONTAINER UTAMA */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* HERO SECTION (Halaman Depan) */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('placeholder-bg.jpg') no-repeat center center/cover; /* Ganti dengan URL gambar Anda */
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.names {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    margin: 10px 0;
+    line-height: 1;
+}
+
+.ampersand {
+    display: block;
+    font-size: 0.5em;
+    margin: -10px 0;
+}
+
+.date-tagline {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#open-button {
+    padding: 10px 25px;
+    background-color: #A37C7E; /* Warna cokelat-merah muda */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#open-button:hover {
+    background-color: #8C6A6C;
+}
+
+/* KONTEN UNDANGAN UTAMA */
+.content {
+    padding: 40px 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.quote-box {
+    margin: 30px 0;
+    padding: 20px;
+    border-left: 3px solid #A37C7E;
+    font-style: italic;
+    background-color: #fefcfb;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #A37C7E;
+    margin: 40px 0 15px;
+}
+
+.couple-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.couple-info p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.divider {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #A37C7E;
+    margin: 10px 0;
+}
+
+/* EVENT DETAILS */
+.event-details {
+    margin: 40px 0;
+}
+
+.timing {
+    margin-bottom: 20px;
+}
+
+.day-time {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.location-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #A37C7E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #8C6A6C;
+}
+
+.footer-notes {
+    margin-top: 50px;
+}
+
+.closing {
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 0.9em;
+}
