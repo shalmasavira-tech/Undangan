@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pertunangan Azka & Heru</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <section class="hero">
+            <h1 class="title">The Engagement of</h1>
+            <div class="names">
+                <span class="name-sarah">Azka</span>
+                <span class="ampersand">&</span>
+                <span class="name-rizky">Heru</span>
+            </div>
+            <p class="date-tagline">6.11.2026</p>
+            <button id="open-button" onclick="openInvitation()">Buka Undangan</button>
+        </section>
+
+        <section id="invitation-content" class="content hidden">
+
+            <div class="quote-box">
+                <p>"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri..." (QS. Ar-Rum: 21)</p>
+            </div>
+
+            <div class="event-details">
+                <h2 class="section-title">Syukur & Doa Restu</h2>
+                <p>Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan acara pertunangan putra-putri kami:</p>
+            </div>
+            
+            <div class="couple-info">
+                <p>
+                    **Azka**<br>
+                    Putri dari Bapak A & Ibu B
+                </p>
+                <div class="divider">---</div>
+                <p>
+                    **Heru**<br>
+                    Putra dari Bapak C & Ibu D
+                </p>
+            </div>
+
+            <div class="event-details">
+                <h2 class="section-title">Waktu & Tempat</h2>
+                <div class="timing">
+                    <p class="day-time">**Sabtu, 6 Desember 2026**</p>
+                    <p>Pukul 20.00 WIB - Selesai</p>
+                </div>
+                <p class="location-name">Balai Pertemuan Harmony</p>
+                <p class="address">Jl. Nya kapan LDRan terus</p>
+                <a href="#" target="_blank" class="cta-button map-button">Lihat Peta Lokasi</a>
+            </div>
+
+            <div class="footer-notes">
+                <h3 class="section-title">Catatan</h3>
+                <p>Mohon konfirmasi kehadiran Anda melalui tombol RSVP di bawah. Terima kasih.</p>
+                <a href="#" target="_blank" class="cta-button rsvp-button">Konfirmasi Kehadiran (RSVP)</a>
+                <p class="closing">Kami yang berbahagia,<br>Keluarga Sarah & Keluarga Rizky</p>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
